@@ -54,18 +54,35 @@ h4, .h4, .label, .caption, .menu-item {
 .button, .shopify-challenge__button, .customer button {
   font-family: 'Ubuntu', sans-serif !important;
   font-weight: 500 !important;
-  background-color: var(--color-pearlina-deep-green) !important;
+  background: var(--gradient-pearlina-premium) !important;
   color: var(--color-pearlina-white) !important;
   border-radius: 2px !important;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  border: none !important;
 }
 
 .button:hover, .customer button:hover {
-  background-color: var(--color-pearlina-forest-green) !important;
+  background: var(--gradient-pearlina-fresh) !important;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(47, 125, 75, 0.15);
+  box-shadow: 0 4px 12px rgba(47, 125, 75, 0.25);
+}
+
+/* Custom Multicolumn Icons */
+.multicolumn-card__icon-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-pearlina-neutral);
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.multicolumn-card__icon-wrapper img {
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.05));
 }
 
 .button--secondary {
@@ -121,8 +138,9 @@ h4, .h4, .label, .caption, .menu-item {
 
 /* Header & Logo Clearance */
 .header__heading-logo {
-  margin: var(--spacing-m) 0 !important; /* Clearance area 0.5H approximately */
+  margin: 0.8rem 0 !important; /* Reduced from 26px to ~8px */
   transition: transform 0.3s ease;
+  display: block;
 }
 
 .header__heading-logo:hover {

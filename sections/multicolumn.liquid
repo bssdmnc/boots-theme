@@ -118,10 +118,15 @@
                   </div>
                 </div>
               {%- endif -%}
-              <div class="multicolumn-card__info">
-                {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
-                {%- endif -%}
+                <div class="multicolumn-card__info">
+                  {%- if block.settings.custom_icon != blank -%}
+                    <div class="multicolumn-card__icon-wrapper" style="margin-bottom: var(--spacing-m); width: 48px; height: 48px;">
+                      <img src="{{ block.settings.custom_icon | asset_url }}" alt="" width="48" height="48" loading="lazy">
+                    </div>
+                  {%- endif -%}
+                  {%- if block.settings.title != blank -%}
+                    <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                  {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
@@ -408,6 +413,12 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+        },
+        {
+          "type": "text",
+          "id": "custom_icon",
+          "label": "Custom SVG Icon (filename in Assets)",
+          "info": "Example: icon-quality.svg"
         },
         {
           "type": "inline_richtext",

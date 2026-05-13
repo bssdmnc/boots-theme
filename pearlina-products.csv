@@ -1,0 +1,14 @@
+Handle,Title,Body (HTML),Vendor,Product Category,Type,Tags,Published,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Variant SKU,Variant Grams,Variant Inventory Tracker,Variant Inventory Qty,Variant Inventory Policy,Variant Fulfillment Service,Variant Price,Variant Compare At Price,Variant Requires Shipping,Variant Taxable,Variant Image,Image Src,Image Position,Image Alt Text,Gift Card,SEO Title,SEO Description,Status
+boots-pearlina-leather-classic,"Черевики Pearlina Classic","<p>Класичні черевики з натуральної шкіри. Ручна робота, преміальна фурнітура.</p>","Pearlina","Footwear > Shoes","Boots","Чоловіче, Шкіра, Новинки",true,Розмір,40,,,SKU-B01,1200,shopify,10,deny,manual,3200,,true,true,,https://cdn.shopify.com/s/files/1/placeholder-image.jpg,1,Pearlina Classic Boots,false,,Нова колекція преміального взуття ПЕРЛИНА.,active
+boots-pearlina-leather-classic,,,,,,,,,41,,,SKU-B02,1200,shopify,10,deny,manual,3200,,true,true,,,,,,false,,,active
+boots-pearlina-leather-classic,,,,,,,,,42,,,SKU-B03,1200,shopify,10,deny,manual,3200,,true,true,,,,,,false,,,active
+boots-pearlina-leather-classic,,,,,,,,,43,,,SKU-B04,1200,shopify,10,deny,manual,3200,,true,true,,,,,,false,,,active
+boots-pearlina-leather-classic,,,,,,,,,44,,,SKU-B05,1200,shopify,10,deny,manual,3200,,true,true,,,,,,false,,,active
+shoes-pearlina-derby-oak,"Туфлі Pearlina Derby Oak","<p>Елегантні дербі кольору дуба. Ідеально для ділових зустрічей.</p>","Pearlina","Footwear > Shoes","Dress Shoes","Чоловіче, Шкіра, Класика",true,Розмір,40,,,SKU-D01,900,shopify,5,deny,manual,2800,,true,true,,https://cdn.shopify.com/s/files/1/placeholder-image.jpg,1,Pearlina Derby Oak,false,,Елегантні туфлі Pearlina для справжніх джентльменів.,active
+shoes-pearlina-derby-oak,,,,,,,,,41,,,SKU-D02,900,shopify,5,deny,manual,2800,,true,true,,,,,,false,,,active
+shoes-pearlina-derby-oak,,,,,,,,,42,,,SKU-D03,900,shopify,5,deny,manual,2800,,true,true,,,,,,false,,,active
+shoes-pearlina-derby-oak,,,,,,,,,43,,,SKU-D04,900,shopify,5,deny,manual,2800,,true,true,,,,,,false,,,active
+sneakers-pearlina-urban-white,"Кросівки Pearlina Urban White","<p>Міські кросівки з білої шкіри. Легкість та стиль у кожному кроці.</p>","Pearlina","Footwear > Shoes","Sneakers","Унісекс, Шкіра, Urban",true,Розмір,37,,,SKU-S01,800,shopify,15,deny,manual,2450,,true,true,,https://cdn.shopify.com/s/files/1/placeholder-image.jpg,1,Pearlina Urban White,false,,Комфортні міські кросівки ПЕРЛИНА.,active
+sneakers-pearlina-urban-white,,,,,,,,,38,,,SKU-S02,800,shopify,15,deny,manual,2450,,true,true,,,,,,false,,,active
+sneakers-pearlina-urban-white,,,,,,,,,39,,,SKU-S03,800,shopify,15,deny,manual,2450,,true,true,,,,,,false,,,active
+sneakers-pearlina-urban-white,,,,,,,,,40,,,SKU-S04,800,shopify,15,deny,manual,2450,,true,true,,,,,,false,,,active

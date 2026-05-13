@@ -94,11 +94,60 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "benefits": {
+      "type": "multicolumn",
+      "blocks": {
+        "quality": {
+          "type": "column",
+          "settings": {
+            "custom_icon": "icon-quality.svg",
+            "title": "Гарантія Якості",
+            "text": "<p>Використовуємо лише натуральну шкіру та перевірені комплектуючі.<\/p>"
+          }
+        },
+        "comfort": {
+          "type": "column",
+          "settings": {
+            "custom_icon": "icon-comfort.svg",
+            "title": "Максимальний Комфорт",
+            "text": "<p>Анатомічна устілка та зручна колодка для тривалих прогулянок.<\/p>"
+          }
+        },
+        "durability": {
+          "type": "column",
+          "settings": {
+            "custom_icon": "icon-durability.svg",
+            "title": "Довговічність",
+            "text": "<p>Взуття, яке зберігає вигляд та форму сезон за сезоном.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "quality",
+        "comfort",
+        "durability"
+      ],
+      "settings": {
+        "title": "Чому обирають ПЕРЛИНА?",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "image_banner",
     "rich_text",
-    "featured_collection"
+    "featured_collection",
+    "benefits"
   ]
 }
