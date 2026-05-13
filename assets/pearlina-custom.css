@@ -147,7 +147,73 @@ h4, .h4, .label, .caption, .menu-item {
   transform: scale(1.05);
 }
 
-/* Icons Style Fix (2px stroke) */
-.icon {
-  stroke-width: 2px !important;
+/* Dark Theme Styles - Nuclear Option */
+:root {
+  --color-dark-bg: #1a1a1a;
+  --color-dark-surface: #262626;
+  --color-dark-text: #f0f0f0;
 }
+
+/* Force override of all Dawn color schemes */
+body.dark-theme,
+body.dark-theme [class*="color-scheme-"],
+body.dark-theme [class*="color-background-"],
+body.dark-theme .gradient {
+  background-color: var(--color-dark-bg) !important;
+  color: var(--color-dark-text) !important;
+  --color-background: var(--color-dark-bg) !important;
+  --color-foreground: var(--color-dark-text) !important;
+  --gradient-background: var(--color-dark-bg) !important;
+}
+
+/* Facets and UI elements */
+body.dark-theme .facets__container,
+body.dark-theme .facets__display,
+body.dark-theme .facets__header,
+body.dark-theme .mobile-facets__inner,
+body.dark-theme .mobile-facets__main,
+body.dark-theme .mobile-facets__submenu {
+  background-color: var(--color-dark-bg) !important;
+  color: var(--color-dark-text) !important;
+}
+
+body.dark-theme .field__input {
+  background-color: var(--color-dark-surface) !important;
+  color: var(--color-dark-text) !important;
+  border-color: #444 !important;
+}
+
+/* Specific component overrides */
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme .card__heading,
+body.dark-theme .title {
+  color: var(--color-pearlina-bright-green) !important;
+  background-color: transparent !important;
+}
+
+body.dark-theme .card__inner,
+body.dark-theme .card {
+  background-color: var(--color-dark-surface) !important;
+  border: 1px solid #444 !important;
+}
+
+/* Footer Fixes */
+body.dark-theme .footer {
+  background-color: #000 !important;
+}
+
+/* Hero Banner Fixes */
+body.dark-theme .banner__media::after {
+  background: transparent !important;
+  opacity: 0 !important;
+}
+
+/* Button Background Fix in Dark Mode */
+body.dark-theme .button {
+  background: var(--color-pearlina-deep-green) !important;
+  color: #fff !important;
+}
+
