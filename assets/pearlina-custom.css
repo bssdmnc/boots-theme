@@ -1,0 +1,135 @@
+/* Pearlina Custom Styles - Final Refinement */
+
+:root {
+  /* Brand Colors */
+  --color-pearlina-bright-green: #75e444;
+  --color-pearlina-vibrant-green: #52cc46;
+  --color-pearlina-deep-green: #40a643;
+  --color-pearlina-forest-green: #319246;
+  --color-pearlina-dark-green: #2f7d4b;
+  
+  --color-pearlina-black: #000000;
+  --color-pearlina-white: #ffffff;
+  --color-pearlina-neutral: #f5f5f5;
+
+  /* Brand Gradients */
+  --gradient-pearlina-fresh: linear-gradient(45deg, #75e444, #40a643);
+  --gradient-pearlina-vibrant: linear-gradient(180deg, #52cc46, #319246);
+  --gradient-pearlina-premium: linear-gradient(90deg, #40a643, #2f7d4b);
+
+  /* Spacing based on Golden Ratio (1.618) */
+  --spacing-base: 1.6rem;
+  --spacing-m: calc(var(--spacing-base) * 1.618); /* ~26px */
+  --spacing-l: calc(var(--spacing-m) * 1.618);    /* ~42px */
+  --spacing-xl: calc(var(--spacing-l) * 1.618);   /* ~68px */
+}
+
+/* Global Typography */
+body, p, .p, .body-text {
+  font-family: 'Quicksand', sans-serif !important;
+  color: var(--color-pearlina-dark-green);
+  line-height: 1.6;
+}
+
+h1, .h1 {
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: 700 !important;
+  color: var(--color-pearlina-dark-green);
+  text-transform: none;
+  letter-spacing: -0.01em;
+}
+
+h2, .h2, h3, .h3 {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 600 !important;
+  color: var(--color-pearlina-dark-green);
+}
+
+h4, .h4, .label, .caption, .menu-item {
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+/* Buttons Styling */
+.button, .shopify-challenge__button, .customer button {
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: 500 !important;
+  background-color: var(--color-pearlina-deep-green) !important;
+  color: var(--color-pearlina-white) !important;
+  border-radius: 2px !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.button:hover, .customer button:hover {
+  background-color: var(--color-pearlina-forest-green) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(47, 125, 75, 0.15);
+}
+
+.button--secondary {
+  background-color: transparent !important;
+  color: var(--color-pearlina-deep-green) !important;
+  border: 2px solid var(--color-pearlina-deep-green) !important;
+}
+
+.button--secondary:hover {
+  background-color: var(--color-pearlina-neutral) !important;
+  color: var(--color-pearlina-forest-green) !important;
+}
+
+/* Header & Navigation */
+.header__menu-item {
+  font-family: 'Nunito', sans-serif !important;
+  color: var(--color-pearlina-dark-green) !important;
+}
+
+.header__menu-item:hover {
+  color: var(--color-pearlina-vibrant-green) !important;
+  text-decoration: underline;
+}
+
+/* Section Spacing */
+.section-spacing-xl {
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}
+
+.section-spacing-l {
+  margin-top: var(--spacing-l);
+  margin-bottom: var(--spacing-l);
+}
+
+/* Product Cards */
+.card__heading {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 600 !important;
+}
+
+.price {
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: 700;
+  color: var(--color-pearlina-deep-green);
+}
+
+/* Background Patterns */
+.bg-leather-texture {
+  background-image: url('pattern-leather.svg') !important;
+  background-repeat: repeat;
+}
+
+/* Header & Logo Clearance */
+.header__heading-logo {
+  margin: var(--spacing-m) 0 !important; /* Clearance area 0.5H approximately */
+  transition: transform 0.3s ease;
+}
+
+.header__heading-logo:hover {
+  transform: scale(1.05);
+}
+
+/* Icons Style Fix (2px stroke) */
+.icon {
+  stroke-width: 2px !important;
+}
