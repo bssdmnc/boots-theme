@@ -1,0 +1,26 @@
+{
+  "brand": {
+    "primary_color": "var(--color-primary)",
+    "font_family": "var(--font-heading-family)",
+    "spacing_base": "1.6rem",
+    "ui_blocks": {
+      "header": "--color-pearlina-dark-green",
+      "hero": {
+          "background": "--color-pearlina-light-green",
+          "text_color": "--color-pearlina-dark-green",
+          "opacity": "0.8",
+          "dark_mode": {
+            "background_color": "--color-pearlina-dark-green",
+            "text_color": "--color-pearlina-light-green"
+          }
+      },
+      "footer": "--color-pearlina-black",
+      "product_cta": "--gradient-pearlina-premium",
+      "featured_item_card": "--color-pearlina-white",
+      "advantages": "--color-pearlina-neutral",
+      "size_guide_banner": "--color-pearlina-deep-green",
+      "stylist_tip": "--color-pearlina-bright-green"
+    }
+
+  }
+}

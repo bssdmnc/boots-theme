@@ -1,6 +1,7 @@
 /* Pearlina Custom Styles - Final Refinement */
 
 :root {
+  --color-primary: var(--color-pearlina-dark-green);
   /* Brand Colors */
   --color-pearlina-bright-green: #75e444;
   --color-pearlina-vibrant-green: #52cc46;
@@ -145,6 +146,31 @@ h4, .h4, .label, .caption, .menu-item {
 
 .header__heading-logo:hover {
   transform: scale(1.05);
+}
+
+/* Featured Section Item Card */
+.featured__item-card {
+  background-color: var(--color-pearlina-white);
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: var(--color-pearlina-light-green);
+  color: var(--color-pearlina-dark-green);
+  opacity: 0.8;
+}
+
+/* UI Blocks */
+.advantages {
+  background-color: var(--color-pearlina-neutral);
+}
+
+.size-guide-banner {
+  background-color: var(--color-pearlina-deep-green);
+}
+
+.stylist-tip {
+  background-color: var(--color-pearlina-bright-green);
 }
 
 /* Dark Theme Styles - Nuclear Option */
