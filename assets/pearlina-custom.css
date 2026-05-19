@@ -19,10 +19,10 @@
   --gradient-pearlina-premium: linear-gradient(90deg, #40a643, #2f7d4b);
 
   /* Spacing based on Golden Ratio (1.618) */
-  --spacing-base: 1.6rem;
-  --spacing-m: calc(var(--spacing-base) * 1.618); /* ~26px */
-  --spacing-l: calc(var(--spacing-m) * 1.618);    /* ~42px */
-  --spacing-xl: calc(var(--spacing-l) * 1.618);   /* ~68px */
+  --spacing-base: 2.0rem;
+  --spacing-m: calc(var(--spacing-base) * 1.618); /* ~32px */
+  --spacing-l: calc(var(--spacing-m) * 1.618);    /* ~52px */
+  --spacing-xl: calc(var(--spacing-l) * 1.618);   /* ~84px */
 }
 
 /* Global Typography */
@@ -155,9 +155,13 @@ h4, .h4, .label, .caption, .menu-item {
 
 /* Hero Section */
 .hero-section {
-  background-color: var(--color-pearlina-light-green);
+  background-color: transparent;
   color: var(--color-pearlina-dark-green);
-  opacity: 0.8;
+}
+
+.banner__content {
+  background-color: transparent !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 /* UI Blocks */
@@ -173,11 +177,11 @@ h4, .h4, .label, .caption, .menu-item {
   background-color: var(--color-pearlina-bright-green);
 }
 
-/* Dark Theme Styles - Nuclear Option */
+/* Dark Theme Styles - Lightened */
 :root {
-  --color-dark-bg: #1a1a1a;
-  --color-dark-surface: #262626;
-  --color-dark-text: #f0f0f0;
+  --color-dark-bg: #2d2d2d;
+  --color-dark-surface: #3d3d3d;
+  --color-dark-text: #e0e0e0;
 }
 
 /* Force override of all Dawn color schemes */

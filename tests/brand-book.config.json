@@ -6,7 +6,7 @@
     "ui_blocks": {
       "header": "--color-pearlina-dark-green",
       "hero": {
-          "background": "--color-pearlina-light-green",
+          "background": "transparent",
           "text_color": "--color-pearlina-dark-green",
           "opacity": "0.8",
           "dark_mode": {
